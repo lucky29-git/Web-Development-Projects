@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.outer-box{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left ,#3ed8ff,#a8f5ff );
+}
+.inner-box{
+    width: 400px;
+    margin: 0px auto;
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #ffffffcc;
+    border-radius: 8px;
+
+    /* Shadow */
+    box-shadow: 2px 2px 5px #1d72ab;
+    /* circles */
+    z-index: 2;
+    /* for Glassmorphic effect , do bcg-color #ffffffcc from white and use backdrop-filter */
+    backdrop-filter: blur(8px);
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+.signup-header p{
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+}
+.signup-main{
+    margin: 20px 0px;
+}
+.signup-main p{
+    margin: 10px 0px;
+}
+.signup-main p label{
+    display: block;
+    font-weight: 700;
+}
+.signup-main p input{
+    width: 100%;
+    padding: 10px ;
+    margin: 4px 0px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.signup-main p input[type="submit"]{
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.signup-main p input[type="submit"]:hover{
+    background-color: #1d72ab;
+}
+
+.signup-footer p{
+    color: #555;
+    text-align: center;
+}
+.signup-footer p a{
+    color: #1d72ab;;
+}
+
+/* circles */
+.circles{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right , #ffffff33 , #ffffff);
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
