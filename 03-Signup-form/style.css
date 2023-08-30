@@ -20,7 +20,8 @@ body{
     top: 45%;
     transform: translateY(-50%);
     padding: 20px 40px;
-    background-color: #ffffffcc;
+    /* background-color: #ffffffcc; */
+    background: linear-gradient(to top left , #ffffff , #ffffffcc);
     border-radius: 8px;
 
     /* Shadow */
