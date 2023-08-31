@@ -27,6 +27,7 @@ body{
     /* Shadow */
     box-shadow: 2px 2px 5px #1d72ab;
     /* circles */
+     
     z-index: 2;
     /* for Glassmorphic effect , do bcg-color #ffffffcc from white and use backdrop-filter */
     backdrop-filter: blur(8px);
@@ -77,6 +78,7 @@ body{
 }
 
 /* circles */
+/* apply properties to make a circle */
 .circles{
     height: 200px;
     width: 200px;
